@@ -1,8 +1,1 @@
-{
-  "version": 2,
-  "builds": [{ "src": "src/main.ts", "use": "@vercel/node" }],
-  "routes": [
-    { "src": "/usuarios(.*)", "dest": "src/main.ts?handler=usuariosHandler" },
-    { "src": "/contratos(.*)", "dest": "src/main.ts?handler=contratosHandler" }
-  ]
-}
+{ "version": 2 }
